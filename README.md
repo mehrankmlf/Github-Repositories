@@ -11,9 +11,14 @@ If your XCode 12.0 is not available, you can change `deployment target` to lower
 
 You don't need to install Anything manually, Alamofire will install  Automatically when You Run the project for the first time. 
 
+## Features
+
+- throttling search without any reactive frameworks
+- pagination
+
 ## Requirements 
 
-- iOS 13.0+
+- - iOS 13.0+
 - - Swift 5
 - - Swift package manager
 
