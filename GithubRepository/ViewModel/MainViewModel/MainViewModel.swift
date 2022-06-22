@@ -44,9 +44,9 @@ final class MainViewModel : ObservableObject, MainBaseViewModel {
     }
     
     private func appendPage(_ repositoriesPage: RepositoryBaseModel?) {
-        guard let data = repositoriesPage else { return }
+        guard let data = repositoriesPage, let items = data.items else { return }
         self.totalPageCount = data.total ?? 1
-        self.publishedItems.append(contentsOf: data.items)
+        self.publishedItems.append(contentsOf: items)
     }
     
     private func resetPages() {

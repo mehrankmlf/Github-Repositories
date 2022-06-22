@@ -40,7 +40,7 @@ class MainViewModelTest: XCTestCase {
         }.store(in: &bag)
 
         mocksearchService.fetchedResult = Result.success(data).publisher.eraseToAnyPublisher()
-        viewModelToTest.callSearchService(query: "", itemCount: 0)
+        viewModelToTest.callSearchService(query: RepositoriesQuery.mockData, page: 0)
 
         wait(for: [expectation], timeout: 1)
     }
@@ -57,7 +57,7 @@ class MainViewModelTest: XCTestCase {
         }.store(in: &bag)
 
         mocksearchService.fetchedResult = Result.success(data).publisher.eraseToAnyPublisher()
-        viewModelToTest.callSearchService(query: "", itemCount: 0)
+        viewModelToTest.callSearchService(query: RepositoriesQuery.mockData, page: 0)
 
         wait(for: [expectation], timeout: 1)
     }

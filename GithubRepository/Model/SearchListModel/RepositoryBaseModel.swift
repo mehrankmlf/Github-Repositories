@@ -10,7 +10,7 @@ import Foundation
 struct RepositoryBaseModel : Decodable {
     var total : Int?
     var incomplete_results : Bool?
-    var items : [Repository]
+    var items : [Repository]?
 }
 
 extension RepositoryBaseModel {

@@ -20,3 +20,7 @@ extension Repository {
 extension Owner {
     static let mockData = Owner(id: 1, login: "login", avatarURL: "avatarURL", gravatarID: "gravatarID", url: "url", htmlURL: "htmlURL", followersURL: "followersURL", followingURL: "followingURL", gistsURL: "gistsURL", starredURL: "starredURL", subscriptionsURL: "subscriptionsURL", organizationsURL: "organizationsURL", reposURL: "reposURL", eventsURL: "eventsURL", receivedEventsURL: "receivedEventsURL")
 }
+
+extension RepositoriesQuery {
+    static let mockData = RepositoriesQuery(query: "test")
+}
