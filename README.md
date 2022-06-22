@@ -18,9 +18,9 @@ You don't need to install Anything manually, Alamofire will install  Automatical
 
 ## Requirements 
 
-- - iOS 13.0+
-- - Swift 5
-- - Swift package manager
+- iOS 13.0+
+- Swift 5
+- Swift package manager
 
 ## Libraries
 
