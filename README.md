@@ -28,4 +28,4 @@ You don't need to install Anything manually, Alamofire will install  Automatical
 
 ## Author
 
-[Mehran Kamalifard](https://github.com/MasayaHayashi724)
+[Mehran Kamalifard](https://github.com/mehrankmlf)
